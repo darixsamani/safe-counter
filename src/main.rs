@@ -22,6 +22,6 @@ fn main() {
         h.join().unwrap();
     }
 
-    println!("The value of counter after ten interations is: {}", *counter.lock().unwrap())
+    println!("The value of counter after 10 interations is: {}", *counter.lock().unwrap())
 }
 
